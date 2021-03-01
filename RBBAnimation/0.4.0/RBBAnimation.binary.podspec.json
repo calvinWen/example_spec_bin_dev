@@ -1,0 +1,29 @@
+{
+  "name": "RBBAnimation",
+  "version": "0.4.0",
+  "summary": "Block-based animations made easy.",
+  "description": "「   converted automatically by plugin cocoapods-imy-bin @厦门美柚 - slj    」\n          RBBAnimation is a subclass of CAKeyframeAnimation that allows you to\ndeclare your animations using blocks instead of writing out all the\nindividual key-frames.\n\nIt also comes with a replacement for CASpringAnimation.",
+  "homepage": "https://github.com/robb/RBBAnimation",
+  "license": "MIT",
+  "authors": {
+    "Robert Böhnke": "robb@robb.is"
+  },
+  "platforms": {
+    "ios": "7.0"
+  },
+  "source": {
+    "http": "http://localhost:8080/frameworks/RBBAnimation/0.4.0/zip",
+    "type": "zip"
+  },
+  "source_files": "bin_RBBAnimation_0.4.0/Headers/*",
+  "ios": {
+    "exclude_files": "RBBAnimation/NSColor+PlatformIndependence.{h,m}"
+  },
+  "osx": {
+    "exclude_files": "RBBAnimation/UIColor+PlatformIndependence.{h,m}"
+  },
+  "frameworks": "QuartzCore",
+  "requires_arc": true,
+  "public_header_files": "bin_RBBAnimation_0.4.0/Headers/*.h",
+  "vendored_libraries": "bin_RBBAnimation_0.4.0/*.a"
+}
