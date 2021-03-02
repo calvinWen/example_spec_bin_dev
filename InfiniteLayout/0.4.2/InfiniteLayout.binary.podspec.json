@@ -1,0 +1,37 @@
+{
+  "name": "InfiniteLayout",
+  "version": "0.4.2",
+  "summary": "Horizontal and Vertical infinite scrolling feature for UICollectionView with Paging, NSProxy delegate, Reactive extension",
+  "description": "「   converted automatically by plugin cocoapods-imy-bin @厦门美柚 - slj    」\n Horizontal and Vertical infinite scrolling feature for UICollectionView with Paging, NSProxy delegate, Reactive extension, SectionModel & AnimatableSectionModel support",
+  "homepage": "https://github.com/arnauddorgans/InfiniteLayout",
+  "screenshots": [
+    "https://github.com/arnauddorgans/InfiniteLayout/raw/master/horizontal.gif",
+    "https://github.com/arnauddorgans/InfiniteLayout/raw/master/vertical.gif",
+    "https://github.com/arnauddorgans/InfiniteLayout/raw/master/custom.gif",
+    "https://github.com/arnauddorgans/InfiniteLayout/raw/master/delegate.gif"
+  ],
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "Arnaud Dorgans": "ineox@me.com"
+  },
+  "source": {
+    "http": "http://localhost:8080/frameworks/InfiniteLayout/0.4.2/zip",
+    "type": "zip"
+  },
+  "social_media_url": "https://twitter.com/arnauddorgans",
+  "platforms": {
+    "ios": "8.0"
+  },
+  "swift_versions": [
+    "5.0",
+    "5.1",
+    "5.1"
+  ],
+  "source_files": "bin_InfiniteLayout_0.4.2/Headers/*",
+  "public_header_files": "bin_InfiniteLayout_0.4.2/Headers/*.h",
+  "vendored_libraries": "bin_InfiniteLayout_0.4.2/*.a",
+  "swift_version": "5.1"
+}
