@@ -1,0 +1,32 @@
+{
+  "name": "YTKNetwork",
+  "version": "2.0.4",
+  "summary": "YTKNetwork is a high level request util based on AFNetworking.",
+  "homepage": "https://github.com/yuantiku/YTKNetwork",
+  "license": "MIT",
+  "authors": {
+    "tangqiao": "tangqiao@fenbi.com",
+    "lancy": "lancy@fenbi.com",
+    "maojj": "maojj@fenbi.com",
+    "liujl": "liujl@fenbi.com"
+  },
+  "source": {
+    "http": "http://localhost:8080/frameworks/YTKNetwork/2.0.4/zip",
+    "type": "zip"
+  },
+  "source_files": "bin_YTKNetwork_2.0.4/Headers/*",
+  "requires_arc": true,
+  "private_header_files": "YTKNetwork/YTKNetworkPrivate.h",
+  "platforms": {
+    "ios": "7.0"
+  },
+  "frameworks": "CFNetwork",
+  "dependencies": {
+    "AFNetworking": [
+      "~> 3.0"
+    ]
+  },
+  "public_header_files": "bin_YTKNetwork_2.0.4/Headers/*.h",
+  "vendored_libraries": "bin_YTKNetwork_2.0.4/*.a",
+  "description": "「   converted automatically by plugin cocoapods-imy-bin @厦门美柚 - slj    」"
+}
