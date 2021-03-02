@@ -1,0 +1,25 @@
+{
+  "name": "UICountingLabel",
+  "version": "1.4.1",
+  "summary": "Adds animated counting support to UILabel.",
+  "homepage": "https://github.com/dataxpress/UICountingLabel",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "Tim Gostony": "dataxpress@gmail.com"
+  },
+  "source": {
+    "http": "http://localhost:8080/frameworks/UICountingLabel/1.4.1/zip",
+    "type": "zip"
+  },
+  "platforms": {
+    "ios": "7.0"
+  },
+  "source_files": "bin_UICountingLabel_1.4.1/Headers/*",
+  "requires_arc": true,
+  "public_header_files": "bin_UICountingLabel_1.4.1/Headers/*.h",
+  "vendored_libraries": "bin_UICountingLabel_1.4.1/*.a",
+  "description": "「   converted automatically by plugin cocoapods-imy-bin @厦门美柚 - slj    」"
+}
