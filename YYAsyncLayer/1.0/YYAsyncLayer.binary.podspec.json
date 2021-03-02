@@ -1,0 +1,30 @@
+{
+  "name": "YYAsyncLayer",
+  "summary": "iOS utility classes for asynchronous rendering and display.",
+  "version": "1.0",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "ibireme": "ibireme@gmail.com"
+  },
+  "social_media_url": "http://blog.ibireme.com",
+  "homepage": "https://github.com/ibireme/YYAsyncLayer",
+  "platforms": {
+    "ios": "6.0"
+  },
+  "source": {
+    "http": "http://localhost:8080/frameworks/YYAsyncLayer/1.0/zip",
+    "type": "zip"
+  },
+  "requires_arc": true,
+  "source_files": "bin_YYAsyncLayer_1.0/Headers/*",
+  "public_header_files": "bin_YYAsyncLayer_1.0/Headers/*.h",
+  "frameworks": [
+    "UIKit",
+    "QuartzCore"
+  ],
+  "vendored_libraries": "bin_YYAsyncLayer_1.0/*.a",
+  "description": "「   converted automatically by plugin cocoapods-imy-bin @厦门美柚 - slj    」"
+}
